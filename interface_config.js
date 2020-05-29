@@ -25,7 +25,7 @@ var interfaceConfig = {
     BRAND_WATERMARK_LINK: '',
     SHOW_POWERED_BY: false,
     SHOW_DEEP_LINKING_IMAGE: false,
-    GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
+    GENERATE_ROOMNAMES_ON_WELCOME_PAGE: false,
     DISPLAY_WELCOME_PAGE_CONTENT: false,
     DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
     APP_NAME: 'WebRTC DotFines',
@@ -48,9 +48,8 @@ var interfaceConfig = {
      */
     TOOLBAR_BUTTONS: [
         'microphone', 'camera', 'closedcaptions', 'desktop', 'fullscreen',
-        'fodeviceselection', 'hangup', 'profile', 'settings','videoquality', 'filmstrip', 'invite', 'feedback', 'stats', 'shortcuts',
-        'tileview', 'videobackgroundblur', 'download', 'help', 'mute-everyone',
-        'e2ee', 'security'
+        'fodeviceselection', 'hangup', 'profile', 'settings','videoquality', 'filmstrip', 'invite', 'stats', 'shortcuts',
+        'tileview', 'help', 'mute-everyone', 'security'
     ],
 
     SETTINGS_SECTIONS: [ 'devices', 'language', 'moderator', 'profile'],
